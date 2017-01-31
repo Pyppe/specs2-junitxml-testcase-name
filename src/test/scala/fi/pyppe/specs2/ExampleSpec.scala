@@ -5,7 +5,13 @@ import org.specs2.mutable.Specification
 class ExampleSpec extends Specification {
 
   "This example" should {
-    "given <NODE.1 FOOBAR> yield <node.1 foobar>" in {
+    "given <N.1 FOOBAR> yield <n.1 foobar>" in {
+      ok
+    }
+    "given N.1 FOOBAR yield n.1 foobar" in {
+      ok
+    }
+    "given N1 FOOBAR yield n1 foobar" in {
       ok
     }
   }
